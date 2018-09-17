@@ -1,6 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font-weight:bold;
+    margin:0px;
 nav,footer{
     text-align:center;
     width:100%;
@@ -16,6 +17,7 @@ main{
                 aside{
                     background-color: #3D3D3B;
                     height:84vh;
+                    width:25%;
                     text-align:left;
                     float:left;
                     ul{
@@ -35,6 +37,10 @@ main{
 
                 article{
                     float:left;
+                    width:75%;
+                    .row{
+                        width:100%;
+                        
                         section{
                         height:10vh;
                         line-height: 10vh;
@@ -46,16 +52,17 @@ main{
                         text-align:center;
                     }
                     .small{
-                        width:24%;
+                        width:23%;
                     }
                     .medium{
-                        width:49%;
+                        width:47.2%;
                         background-color: #FCFF34;
                     }
                     .large{
-                        width:99%;
+                        width:95.4%;
                         background-color:#DC4E26;
                     }
+                }
                 }
             }
 

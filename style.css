@@ -1,6 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 0px; }
   body nav, body footer {
     text-align: center;
     width: 100%;
@@ -15,6 +16,7 @@ body {
     body main aside {
       background-color: #3D3D3B;
       height: 84vh;
+      width: 25%;
       text-align: left;
       float: left; }
       body main aside ul li {
@@ -23,22 +25,25 @@ body {
           color: black;
           text-decoration: none; }
     body main article {
-      float: left; }
-      body main article section {
-        height: 10vh;
-        line-height: 10vh;
-        background-color: #7F8488;
-        float: left;
-        margin: 0.5%;
-        border: 1px black solid;
-        text-align: center; }
-      body main article .small {
-        width: 24%; }
-      body main article .medium {
-        width: 49%;
-        background-color: #FCFF34; }
-      body main article .large {
-        width: 99%;
-        background-color: #DC4E26; }
+      float: left;
+      width: 75%; }
+      body main article .row {
+        width: 100%; }
+        body main article .row section {
+          height: 10vh;
+          line-height: 10vh;
+          background-color: #7F8488;
+          float: left;
+          margin: 0.5%;
+          border: 1px black solid;
+          text-align: center; }
+        body main article .row .small {
+          width: 23%; }
+        body main article .row .medium {
+          width: 47.2%;
+          background-color: #FCFF34; }
+        body main article .row .large {
+          width: 95.4%;
+          background-color: #DC4E26; }
 
 /*# sourceMappingURL=style.css.map */
