@@ -38,6 +38,9 @@ main{
                 article{
                     float:left;
                     width:75%;
+                    overflow-y:scroll;
+                    height:84vh;
+                    
                     .row{
                         width:100%;
                         
